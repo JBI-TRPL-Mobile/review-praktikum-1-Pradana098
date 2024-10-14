@@ -18,7 +18,25 @@ class DetailBuku extends StatelessWidget{
             height: 150,
             width: 100,
             fit: BoxFit.cover,
-          )
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text(ItemArgs.judul,
+                style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                SizedBox(height: 10),
+                 Text(ItemArgs.penulis,
+                style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                SizedBox(height: 10),
+                Text(ItemArgs.deskirpsi,
+                style: Theme.of(context).textTheme.headlineMedium,
+                ),
+              ],
+            ),)
         ],
       ),
     );
