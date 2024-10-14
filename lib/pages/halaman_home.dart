@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:template_project/items/item.dart';
+import 'package:template_project/pages/tentang_aplikasi.dart';
 
 class HalamanHome extends StatelessWidget {
   final List<Item> items = [
